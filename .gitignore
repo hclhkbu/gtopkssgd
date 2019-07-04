@@ -1,3 +1,21 @@
+## ginore this file ##
+*.pth
+*.log
+*.pyc
+*.swp
+*.swo
+*.pfm
+*_local.sh
+tmp
+data*
+weights
+.nfs*
+runs
+*.ipynb
+*.npy
+bk/
+*.npy*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
