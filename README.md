@@ -14,8 +14,8 @@ For more details about the algorithm, please refer to our papers.
 ### Prerequisites
 - Python 2 or 3
 - PyTorch-0.4.+
-- [OpenMPI-3.1.+]([https://www.open-mpi.org/software/ompi/v3.1/](https://www.open-mpi.org/software/ompi/v3.1/))
-- [Horovod-0.14.+]([https://github.com/horovod/horovod](https://github.com/horovod/horovod)): optimal if not run the dense version
+- [OpenMPI-3.1.+](https://www.open-mpi.org/software/ompi/v3.1/)
+- [Horovod-0.14.+](https://github.com/horovod/horovod): Optional if not run the dense version
 ### Quick Start
 ```
 git clone https://github.com/hclhkbu/gtopkssgd.git
