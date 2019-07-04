@@ -1,0 +1,8 @@
+simplejson
+tensorboardX
+ujson
+coloredlogs
+tqdm
+h5py
+mpi4py
+psutil
