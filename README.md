@@ -27,6 +27,6 @@ Assume that you have 4 GPUs on a single node and everything works well, you will
 ## Papers
 - S. Shi, Q. Wang, K. Zhao, Z. Tang, Y. Wang, X. Huang, and X.-W. Chu, “A Distributed Synchronous SGD Algorithm with Global Top-k Sparsification for Low Bandwidth Networks,” *IEEE ICDCS 2019*, Dallas, Texas, USA, July 2019. [PDF](https://arxiv.org/pdf/1901.04359.pdf)
 - S. Shi, K. Zhao, Q. Wang, Z. Tang, and X.-W. Chu, “A Convergence Analysis of Distributed SGD with Communication-Efficient Gradient Sparsification,”  *IJCAI 2019*, Macau, P.R.C., August 2019.
-## Refered Models
-- Deep speed: [https://github.com/SeanNaren/deepspeech.pytorch](https://github.com/SeanNaren/deepspeech.pytorch)
+## Referred Models
+- Deep speech: [https://github.com/SeanNaren/deepspeech.pytorch](https://github.com/SeanNaren/deepspeech.pytorch)
 - PyTorch examples: [https://github.com/pytorch/examples](https://github.com/pytorch/examples)
