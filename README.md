@@ -5,7 +5,7 @@ This repository contains the codes of the gTop-k S-SGD (Synchronous Schocastic G
 | S-SGD | Complexity | Time Cost  |
 | ------------- |:-------------:| -----:|
 | Dense | O(d) | 2\alpha(P-1)+2(P-1)/Pd\beta |
-| Top-k | O(kP)| \alpha\log P+2(P-1)k\beta |
+| Top-k | O(kP)| \alpha logP+2(P-1)k\beta |
 | **gTop-k** | **O(k logP)** |  **\alpha logP+2klogP\beta**   |
 
 For more details about the algorithm, please refer to our papers.
