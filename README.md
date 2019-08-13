@@ -1,12 +1,12 @@
 # gTop-*k* S-SGD
 ## Introduction
-This repository contains the codes of the gTop-$k$ S-SGD (Synchronous Schocastic Gradident Descent) papers appeared at *ICDCS 2019* (this version targets at empirical study) and *IJCAI 2019* (this version targets at theorectical study). gTop-$k$ S-SGD is a communication-efficient distributed training algorithm for deep learning. The key idea of gTop-$k$ is that each work only sends/recieves top-$k$ ($k$ could be 0.1% of the gradient dimension $d$, i.e., $k$=0.001$d$) with a tree structure (recursive doubling) so that the communication complexity is O($k$ log$P$), where P is the number of workers. The convergence property of gTop-$k$ S-SGD is provable under some weak analytical assumptions. The communication complexity comparision with tranditional ring-based all-reduce (Dense) and Top-$k$ sparsification is shown as follows:
+This repository contains the codes of the gTop-k S-SGD (Synchronous Schocastic Gradident Descent) papers appeared at *ICDCS 2019* (this version targets at empirical study) and *IJCAI 2019* (this version targets at theorectical study). gTop-k S-SGD is a communication-efficient distributed training algorithm for deep learning. The key idea of gTop-$k$ is that each work only sends/recieves top-k (k could be 0.1% of the gradient dimension d, i.e., k=0.001d) with a tree structure (recursive doubling) so that the communication complexity is O(k logP), where P is the number of workers. The convergence property of gTop-k S-SGD is provable under some weak analytical assumptions. The communication complexity comparision with tranditional ring-based all-reduce (Dense) and Top-k sparsification is shown as follows:
 
 | S-SGD | Complexity | Time Cost  |
 | ------------- |:-------------:| -----:|
-| Dense | O($d$) | $2\alpha(P-1)+2(P-1)/Pd\beta$ |
+| Dense | O($d$) | 2\alpha(P-1)+2(P-1)/Pd\beta |
 | Top-$k$ | O($kP$)| $\alpha\log P+2(P-1)k\beta$ |
-| **gTop-$k$** | **O($k\log P$)** |  **$\alpha\log P+2k\log P\beta$**   |
+| **gTop-k** | **O(k logP)** |  **\alpha logP+2klogP\beta**   |
 
 For more details about the algorithm, please refer to our papers.
 
